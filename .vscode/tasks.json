@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Upload Code to GitHub",
+            "type": "shell",
+            "command": "git add .; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; git commit -m 'Daily-coding-update'; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; git push",
+            "problemMatcher": []
+        }
+    ]
+}
