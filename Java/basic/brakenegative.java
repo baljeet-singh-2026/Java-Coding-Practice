@@ -23,9 +23,7 @@ public class brakenegative {
                     System.out.println("your entered number is = " +num+ " This is positive :");
                 }
         }
-           
-           
-            
+              
     }
     sc.close();
 }

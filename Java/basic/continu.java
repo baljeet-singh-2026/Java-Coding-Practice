@@ -4,14 +4,18 @@ public class continu {
 
         Scanner sc = new Scanner(System.in);
 
-        for(int i=0; i<=10; i++){
+      int i=340;
+        for(i=0; i<10; i++){
             if(i==5||i==7||i==9||i==10){
                 
                 continue;
             }
-            System.out.println("number is = " +i);
+            
         }
 
+       
+        
+        System.out.println(i);
         sc.close();
     }
 }
